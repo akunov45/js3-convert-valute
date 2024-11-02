@@ -1,0 +1,35 @@
+
+
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+ }
+
+ .container {
+    width: 400px;
+    margin: auto;
+ }
+
+ .from, .to {
+    display: flex;
+    gap: 20px;
+    padding: 12px 22px;
+    border-radius: 6px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+ }
+ .vertical-line {
+    height: auto;
+    width: 2px;
+    background-color: black;
+ }
+ select {
+    flex: 1;
+ }
+ input {
+    width: 100px;
+ }
